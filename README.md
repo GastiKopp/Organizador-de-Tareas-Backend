@@ -1,4 +1,4 @@
-# 📦 Backend - Proyecto Final PNT2
+# 📦 Backend - Proyecto Final TP2
 
 Este repositorio contiene el backend del Proyecto Final de Taller de Programación 2.
 

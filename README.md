@@ -1,6 +1,6 @@
-# 📦 Backend - Proyecto Final PNT2
+# 📦 Backend - Proyecto Final TP2
 
-Este repositorio contiene el backend del Proyecto Final de Programación en Nuevas Tecnologías 2.
+Este repositorio contiene el backend del Proyecto Final de Taller de Programación 2.
 
 Desarrollado con **Node.js**, **Express** y **Sequelize**, conectado a una base de datos **MySQL**.
 

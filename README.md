@@ -53,23 +53,30 @@ npm run dev
 El backend se levantará en http://localhost:3000
 
 
-📚 **Endpoints principales**
+## 🧱 Arquitectura aplicada
 
-GET /api/tareas: Obtener todas las tareas
+El proyecto utiliza una arquitectura basada en capas con separación clara de responsabilidades:
 
-POST /api/tareas: Crear nueva tarea
+- **Modelos (models/)**: Definición de las entidades (`Task`, `Category`) usando Sequelize.
+- **Servicios (services/)**: Encapsulan la lógica de negocio en clases reutilizables.
+- **Controladores (controllers/)**: Se encargan de manejar las peticiones HTTP y delegar la lógica a los servicios.
+- **Rutas (routes/)**: Definen los endpoints y conectan con los métodos del controlador.
 
-PUT /api/tareas/:id: Actualizar tarea
+También se implementa **inyección de dependencias**, pasando instancias de servicios a los controladores desde las rutas. Esto mejora el desacoplamiento y la mantenibilidad del código.
 
-DELETE /api/tareas/:id: Eliminar tarea
+ ## 📚 Endpoints principales
 
-GET /api/tareas/:id: Obtener tarea por ID
+### Tareas (`/api/tareas`)
+- `GET /`: Obtener todas las tareas
+- `GET /:id`: Obtener tarea por ID
+- `POST /`: Crear nueva tarea
+- `PUT /:id`: Actualizar tarea
+- `DELETE /:id`: Eliminar tarea
 
-GET /api/categorias: Obtener categorías
-
-POST /api/categorias: Crear nueva categoría
-
-DELETE /api/categorias/:id: Eliminar categoría
+### Categorías (`/api/categorias`)
+- `GET /`: Obtener todas las categorías
+- `POST /`: Crear nueva categoría
+- `DELETE /:id`: Eliminar categoría
 
 🌐 **Relación con el frontend**
 Este backend es consumido por el frontend disponible en:

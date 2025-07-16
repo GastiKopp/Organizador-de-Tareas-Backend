@@ -18,7 +18,7 @@ Desarrollado con **Node.js**, **Express** y **Sequelize**, conectado a una base 
 1. **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/GastiKopp/backend-proyecto-final-tp2.git
+git clone https://github.com/GastiKopp/backend-organizador-de-tareas
 cd backend-proyecto-final-tp2
 ```
 2. **Instalar dependencias**

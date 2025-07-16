@@ -81,7 +81,7 @@ También se implementa **inyección de dependencias**, pasando instancias de ser
 🌐 **Relación con el frontend**
 Este backend es consumido por el frontend disponible en:
 
-🔗 https://github.com/fedecotler/proyecto-final-pnt2
+🔗 https://github.com/GastiKopp/organizador-de-tareas-frontend
 
 ## 👨‍💻 Autor
 
